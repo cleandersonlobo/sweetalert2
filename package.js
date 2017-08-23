@@ -1,6 +1,6 @@
 Package.describe({
   name: 'cleandersonlobo:sweetalert2',
-  version: '1.2.0',
+  version: '1.3.0',
   // Brief, one-line summary of the package.
   summary: 'Meteor Package for sweetAlert2: a beautiful replacement for javascript\' alert()',
   // URL to the Git repository containing the source code for this package.
@@ -11,8 +11,8 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.addFiles('src/sweetalert.min.js', 'client');
-  api.addFiles('src/sweetalert.css', 'client');
+  api.addFiles('src/sweetalert2.min.js', 'client');
+  api.addFiles('src/sweetalert2.min.css', 'client');
 });
 
 Package.onTest(function(api) {
