@@ -1,12 +1,13 @@
-SweetAlert 2 (v6.6.9) for Meteor
+SweetAlert 2 (v6.9.0) for Meteor
 =======
 Wrapper for SweetAlert Meteor
 original npm package: https://github.com/limonte/sweetalert2
+forked from `cleandersonlobo:sweetalert2`
 
 Install
 --------
 
-`meteor add cleandersonlobo:sweetalert2`
+`meteor add matadur:sweetalert2`
 
 Examples
 --------
